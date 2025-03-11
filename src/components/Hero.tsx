@@ -3,12 +3,12 @@ import WhatsAppButton from "./WhatsAppButton";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative overflow-hidden bg-fitness-primary text-white">
-      <div className="absolute inset-0 bg-gradient-to-r from-fitness-primary to-fitness-primary/80 z-10"></div>
+    <section id="home" className="relative overflow-hidden bg-gray-900 text-white">
+      <div className="absolute inset-0 bg-gradient-to-r from-gray-900/70 to-gray-800/60 z-10"></div>
       
       {/* Hero background - Replace with your own image URL */}
       <div 
-        className="absolute inset-0 bg-cover bg-center opacity-30"
+        className="absolute inset-0 bg-cover bg-center opacity-50"
         style={{
           backgroundImage: "url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')"
         }}
