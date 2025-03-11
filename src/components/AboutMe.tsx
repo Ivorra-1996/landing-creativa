@@ -21,9 +21,9 @@ const achievements = [
 
 const AboutMe = () => {
   return (
-    <section id="about" className="section bg-fitness-primary text-white">
+    <section id="about" className="section">
       <div className="max-w-6xl mx-auto">
-        <h2 className="section-title text-white">Sobre Mí</h2>
+        <h2 className="section-title">Sobre Mí</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Profile image */}
@@ -41,12 +41,12 @@ const AboutMe = () => {
           {/* Biography */}
           <div>
             <h3 className="text-2xl font-bold mb-4 text-fitness-accent">Nombre del Entrenador</h3>
-            <p className="text-gray-200 mb-6">
+            <p className="text-gray-700 mb-6">
               Soy un entrenador personal apasionado por ayudar a las personas a transformar sus vidas a través del fitness. 
               Con más de 8 años de experiencia, he desarrollado un enfoque que combina entrenamiento efectivo, nutrición 
               adecuada y mentalidad positiva para lograr resultados duraderos.
             </p>
-            <p className="text-gray-200 mb-6">
+            <p className="text-gray-700 mb-6">
               Mi filosofía se basa en crear planes personalizados que se adapten a tu estilo de vida y necesidades únicas, 
               no en soluciones genéricas que funcionan para pocos. Creo firmemente que cada persona tiene el potencial para 
               lograr su mejor versión física y mental.
@@ -57,12 +57,12 @@ const AboutMe = () => {
         {/* Achievements */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
           {achievements.map((achievement, index) => (
-            <div key={index} className="bg-fitness-primary/50 p-6 rounded-lg border border-fitness-accent/30 text-center">
+            <div key={index} className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm text-center">
               <div className="flex justify-center mb-4">
                 {achievement.icon}
               </div>
-              <h3 className="text-xl font-bold mb-2 text-white">{achievement.title}</h3>
-              <p className="text-gray-300">{achievement.description}</p>
+              <h3 className="text-xl font-bold mb-2 text-fitness-dark">{achievement.title}</h3>
+              <p className="text-gray-700">{achievement.description}</p>
             </div>
           ))}
         </div>
