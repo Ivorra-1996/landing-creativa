@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -65,7 +66,7 @@ export default {
 				// Custom colors for fitness landing page
 				fitness: {
 					primary: '#1A365D',    // Dark blue
-					accent: '#0EA5E9',     // Matte blue (changed from green)
+					accent: '#F97316',     // Orange (changed from matte blue)
 					light: '#f5f5f5',      // Light gray
 					dark: '#333333',       // Dark gray
 					muted: '#718096',      // Muted text color
